@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Instagram Webscraper", "Instagram Webscraper.pyproj", "{C455A9AA-2286-475F-ADEF-E5EA58611D58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C455A9AA-2286-475F-ADEF-E5EA58611D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C455A9AA-2286-475F-ADEF-E5EA58611D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A245CB4-DE95-4B7B-A81A-125AD8F3A386}
+	EndGlobalSection
+EndGlobal
