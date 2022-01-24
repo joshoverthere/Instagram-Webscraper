@@ -15,9 +15,10 @@ class Insta_Scraper:
 
     def openGram(self):
         self.driver.get("http://www.instagram.com")
-        sleep(100) 
-        self.driver.find_element_by_xpath("//button[contains(text(), 'Accept')]")\
-             .click()
+
+        element_present = EC.presence_of_element_located((By.XPATH, '/html/body'))
+        WebDriverWait(self.driver, 10).until(element_present)
+        print("Fetched instagram login page.")
 
 
 def main():
